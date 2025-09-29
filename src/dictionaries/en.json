@@ -1,0 +1,90 @@
+
+{
+  "header": {
+    "about": "About Us",
+    "features": "Features",
+    "marketplace": "Marketplace",
+    "signIn": "Join"
+  },
+  "hero": {
+    "title": "Join Our Community",
+    "subtitle": "Join our community of pioneers and co-creators of RyzeSpace. Discuss, share ideas, and have a real impact on the future of the platform."
+  },
+  "features": {
+    "title": "Everything You Need to Succeed",
+    "cards": {
+      "discord": {
+        "title": "Join on Discord",
+        "description": "Discuss, ask questions, and get to know other community members.",
+        "cta": "Join Server"
+      },
+      "sdk": {
+        "title": "Discover our SDK",
+        "description": "Our Software Development Kit is planned for the future. Follow our progress to stay up to date!",
+        "cta": "See SDK"
+      },
+      "github": {
+        "title": "Contribute on GitHub",
+        "description": "Browse the code, report bugs, and help us develop the project.",
+        "cta": "See Repository"
+      }
+    }
+  },
+  "footer": {
+    "description": "A decentralized open-source platform for secure sharing of computing resources.",
+    "navigation": "Navigation",
+    "community": "Community",
+    "links": {
+      "features": "Key Features",
+      "roadmap": "Roadmap"
+    },
+    "rights": "All rights reserved.",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "regulations": "Regulations"
+  },
+  "marketplace": {
+    "authWall": {
+      "title": "Access the Marketplace",
+      "description": "To explore our full range of server configurations and pricing, please sign in to your RyzeSpace account.",
+      "cta": "Sign In"
+    },
+    "title": "Server Marketplace",
+    "subtitle": "Choose the perfect configuration for your needs. All plans are illustrative.",
+    "comingSoon": "New offers coming soon!",
+    "servers": {
+      "starter": {
+        "name": "Starter VM",
+        "description": "Perfect for small projects and development."
+      },
+      "dev_pro": {
+        "name": "Developer Pro",
+        "description": "Ideal for growing applications and staging."
+      },
+      "beast": {
+        "name": "Compute Beast",
+        "description": "For demanding workloads and high-traffic apps."
+      }
+    },
+    "specs": {
+      "cpu": "CPU",
+      "ram": "RAM",
+      "storage": "Storage",
+      "bandwidth": "Bandwidth"
+    },
+    "price_per_month": "/ month",
+    "lease_now": "Lease Now"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "content": "This is a placeholder for the Terms of Service. Please replace this with your actual terms."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "content": "This is a placeholder for the Privacy Policy. Please replace this with your actual policy."
+  },
+  "regulations": {
+    "title": "Regulations",
+    "content": "This is a placeholder for the Regulations. Please replace this with your actual regulations."
+  }
+}

@@ -1,0 +1,90 @@
+
+{
+  "header": {
+    "about": "Sobre nosotros",
+    "features": "Características",
+    "marketplace": "Mercado",
+    "signIn": "Unirse"
+  },
+  "hero": {
+    "title": "Únete a nuestra comunidad",
+    "subtitle": "Únete a nuestra comunidad de pioneros y cocreadores de RyzeSpace. Debate, comparte ideas y ten un impacto real en el futuro de la plataforma."
+  },
+  "features": {
+    "title": "Todo lo que necesitas para tener éxito",
+    "cards": {
+      "discord": {
+        "title": "Únete en Discord",
+        "description": "Debate, haz preguntas y conoce a otros miembros de la comunidad.",
+        "cta": "Unirse al Servidor"
+      },
+      "sdk": {
+        "title": "Descubre nuestro SDK",
+        "description": "Nuestro Kit de Desarrollo de Software está planeado para el futuro. ¡Sigue nuestro progreso para mantenerte al día!",
+        "cta": "Ver SDK"
+      },
+      "github": {
+        "title": "Contribuye en GitHub",
+        "description": "Explora el código, informa de errores y ayúdanos a desarrollar el proyecto.",
+        "cta": "Ver Repositorio"
+      }
+    }
+  },
+  "footer": {
+    "description": "Una plataforma descentralizada de código abierto para el intercambio seguro de recursos informáticos.",
+    "navigation": "Navegación",
+    "community": "Comunidad",
+    "links": {
+      "features": "Características Clave",
+      "roadmap": "Hoja de Ruta"
+    },
+    "rights": "Todos los derechos reservados.",
+    "terms": "Términos de servicio",
+    "privacy": "Política de privacidad",
+    "regulations": "Regulaciones"
+  },
+  "marketplace": {
+    "authWall": {
+      "title": "Acceder al Mercado",
+      "description": "Para explorar nuestra gama completa de configuraciones de servidor y precios, inicie sesión en su cuenta de RyzeSpace.",
+      "cta": "Iniciar sesión"
+    },
+    "title": "Mercado de Servidores",
+    "subtitle": "Elige la configuración perfecta para tus necesidades. Todos los planes son ilustrativos.",
+    "comingSoon": "¡Nuevas ofertas próximamente!",
+    "servers": {
+      "starter": {
+        "name": "VM de inicio",
+        "description": "Perfecto para pequeños proyectos y desarrollo."
+      },
+      "dev_pro": {
+        "name": "Desarrollador Pro",
+        "description": "Ideal para aplicaciones en crecimiento y preproducción."
+      },
+      "beast": {
+        "name": "Bestia de Cómputo",
+        "description": "Para cargas de trabajo exigentes y aplicaciones de alto tráfico."
+      }
+    },
+    "specs": {
+      "cpu": "CPU",
+      "ram": "RAM",
+      "storage": "Almacenamiento",
+      "bandwidth": "Ancho de banda"
+    },
+    "price_per_month": "/ mes",
+    "lease_now": "Alquilar ahora"
+  },
+  "terms": {
+    "title": "Términos de servicio",
+    "content": "Este es un marcador de posición para los Términos de servicio. Reemplácelo con sus términos reales."
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "content": "Este es un marcador de posición para la Política de privacidad. Reemplácela con su política real."
+  },
+  "regulations": {
+    "title": "Regulaciones",
+    "content": "Este es un marcador de posición para las Regulaciones. Reemplácelo con sus regulaciones reales."
+  }
+}

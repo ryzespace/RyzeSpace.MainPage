@@ -1,0 +1,90 @@
+
+{
+  "header": {
+    "about": "À propos de nous",
+    "features": "Fonctionnalités",
+    "marketplace": "Place de marché",
+    "signIn": "Rejoindre"
+  },
+  "hero": {
+    "title": "Rejoignez notre communauté",
+    "subtitle": "Rejoignez notre communauté de pionniers et de co-créateurs de RyzeSpace. Discutez, partagez des idées et ayez un réel impact sur l'avenir de la plateforme."
+  },
+  "features": {
+    "title": "Tout ce dont vous avez besoin pour réussir",
+    "cards": {
+      "discord": {
+        "title": "Rejoindre sur Discord",
+        "description": "Discutez, posez des questions et rencontrez d'autres membres de la communauté.",
+        "cta": "Rejoindre le Serveur"
+      },
+      "sdk": {
+        "title": "Découvrez notre SDK",
+        "description": "Notre kit de développement logiciel est prévu pour l'avenir. Suivez nos progrès pour rester à jour !",
+        "cta": "Voir le SDK"
+      },
+      "github": {
+        "title": "Contribuer sur GitHub",
+        "description": "Parcourez le code, signalez des bogues et aidez-nous à développer le projet.",
+        "cta": "Voir le Dépôt"
+      }
+    }
+  },
+  "footer": {
+    "description": "Une plateforme décentralisée et open-source pour le partage sécurisé de ressources informatiques.",
+    "navigation": "Navigation",
+    "community": "Communauté",
+    "links": {
+      "features": "Fonctionnalités Clés",
+      "roadmap": "Feuille de Route"
+    },
+    "rights": "Tous droits réservés.",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "regulations": "Réglementations"
+  },
+  "marketplace": {
+    "authWall": {
+      "title": "Accéder à la Place de Marché",
+      "description": "Pour explorer notre gamme complète de configurations de serveurs et de tarifs, veuillez vous connecter à votre compte RyzeSpace.",
+      "cta": "Se connecter"
+    },
+    "title": "Place de Marché des Serveurs",
+    "subtitle": "Choisissez la configuration parfaite pour vos besoins. Tous les plans sont illustratifs.",
+    "comingSoon": "Nouvelles offres à venir !",
+    "servers": {
+      "starter": {
+        "name": "VM de démarrage",
+        "description": "Parfait pour les petits projets et le développement."
+      },
+      "dev_pro": {
+        "name": "Développeur Pro",
+        "description": "Idéal pour les applications en croissance et la pré-production."
+      },
+      "beast": {
+        "name": "Bête de Calcul",
+        "description": "Pour les charges de travail exigeantes et les applications à fort trafic."
+      }
+    },
+    "specs": {
+      "cpu": "CPU",
+      "ram": "RAM",
+      "storage": "Stockage",
+      "bandwidth": "Bande passante"
+    },
+    "price_per_month": "/ mois",
+    "lease_now": "Louer maintenant"
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "content": "Ceci est un placeholder pour les conditions d'utilisation. Veuillez le remplacer par vos conditions réelles."
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "content": "Ceci est un placeholder pour la politique de confidentialité. Veuillez la remplacer par votre politique réelle."
+  },
+  "regulations": {
+    "title": "Réglementations",
+    "content": "Ceci est un placeholder pour les réglementations. Veuillez le remplacer par vos réglementations réelles."
+  }
+}
