@@ -3,9 +3,15 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'AetherLease',
-  description: 'AetherLease - Server Resource Rental Platform',
+    title: 'RyzeSpace',
+    description: 'RyzeSpace - Server Resource Rental Platform',
+    icons: {
+        icon: '/images/logo.svg',
+        apple: '/images/logo.png',
+        shortcut: '/images/logo.svg',
+    },
 };
+
 
 export default function RootLayout({
   children,
