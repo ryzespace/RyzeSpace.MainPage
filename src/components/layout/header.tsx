@@ -18,7 +18,6 @@ export function Header({ dictionary, lang }: HeaderProps) {
   const navLinks = [
     { href: '#about', label: dictionary.header.about },
     { href: '#features', label: dictionary.header.features },
-    { href: `/${lang}/marketplace`, label: dictionary.header.marketplace },
   ];
 
   return (
@@ -53,7 +52,7 @@ export function Header({ dictionary, lang }: HeaderProps) {
           </Button>
         </SheetTrigger>
         <SheetContent side="left">
-          <nav className="grid gap-6 text-lg font-medium">
+          <nav className="grid gap-5 text-lg font-medium">
             <Link
               href={`/${lang}`}
               className="flex items-center gap-2 text-lg font-semibold"
@@ -75,15 +74,8 @@ export function Header({ dictionary, lang }: HeaderProps) {
       </Sheet>
 
       <div className="flex items-center justify-end gap-4">
-        <LanguageSwitcher lang={lang} />
-        <Button
-          variant="ghost"
-          size="sm"
-          className="hidden rounded-full md:inline-flex"
-        >
-          <Users className="mr-2 h-4 w-4" />
-          {dictionary.header.signIn}
-        </Button>
+
+
       </div>
     </header>
   );
