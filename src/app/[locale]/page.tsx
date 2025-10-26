@@ -1,20 +1,17 @@
 "use client";
 
+import Hero from "@/components/Hero";
+import Features from "@/components/Features";
+import Video from "@/components/Video";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import ScrollUp from "@/components/Common/ScrollUp";
-import Contact from "@/components/Contact";
-import Features from "@/components/Features";
-import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
-import Video from "@/components/Video";
+import Contact from "@/components/Contact";
+import ScrollUp from "@/components/Common/ScrollUp";
 import { useTranslations } from "next-intl";
-
-
 
 export default function Home() {
   const t = useTranslations("Home");
-
   return (
     <>
       <ScrollUp />

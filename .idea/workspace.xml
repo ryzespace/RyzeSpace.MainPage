@@ -5,24 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0595975c-67c2-4ed1-acdf-c41228d425e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/Middleware/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/messages/de.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/messages/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/messages/pl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/messages/ru.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/next-intl.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/[locale]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/messages/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/messages/de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/messages/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/messages/pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/messages/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/messages/ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/i18nButton/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/i18nButton/Button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ScrollToTop/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScrollToTop/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,28 +47,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
-    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\anysz\\Documents\\GitHub\\RyzeSpace.MainPage\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;discord-project&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\anysz\\Documents\\GitHub\\RyzeSpace.MainPage\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\anysz\\Documents\\GitHub\\RyzeSpace.MainPage\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "CodeStatsConfigurable",
+    "ts.external.directory.path": "C:\\Users\\anysz\\Documents\\GitHub\\RyzeSpace.MainPage\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anysz\Documents\GitHub\RyzeSpace.MainPage\src\app" />
       <recent name="C:\Users\anysz\Documents\GitHub\RyzeSpace.MainPage\src\app\[locale]" />
     </key>
   </component>
@@ -114,11 +107,24 @@
       <workItem from="1761465052267" duration="157000" />
       <workItem from="1761473820637" duration="132000" />
       <workItem from="1761487382763" duration="1000" />
-      <workItem from="1761493641278" duration="10996000" />
+      <workItem from="1761493641278" duration="12560000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.gk646.codestats.settings.Save">
+    <option name="genericTimePoints">
+      <list>
+        <TimePoint>
+          <option name="timestamp" value="1761506140769" />
+          <option name="linesCode" value="26090" />
+          <option name="totalLines" value="49550" />
+          <option name="info" value="26 paź 2025" />
+        </TimePoint>
+      </list>
+    </option>
+    <option name="separateTabsTypes" value="java;cpp;c;hpp;h;rs;css;html;js;php;py;cs;go;rb;swift;ts;kt;sql;pl;lua;groovy;asp;aspx;tsx;json;scss;less;sass;sh;bat;ps1;md;f;r;m;asm;ada;scala;dart;jsx;julia" />
   </component>
 </project>
