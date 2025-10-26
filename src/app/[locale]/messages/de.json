@@ -1,0 +1,10 @@
+{
+  "Home": {
+    "title": "Willkommen in unserer App",
+    "description": "Dies ist die deutsche Version."
+  },
+  "Header": {
+    "signin": "Anmelden",
+    "signup": "Registrieren"
+  }
+}

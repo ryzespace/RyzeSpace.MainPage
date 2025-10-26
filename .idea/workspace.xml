@@ -5,118 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0595975c-67c2-4ed1-acdf-c41228d425e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/i18nButton/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/Middleware/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/messages/de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/messages/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/messages/pl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/messages/ru.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/next-intl.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/login/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/signup/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(marketing)/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(marketing)/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/provider.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/announcement-banner/announcement-banner.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/announcement-banner/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/button-link/button-link.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/button-link/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/faq/faq.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/faq/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/features/features.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/features/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/gradients/background-gradient.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/hero/hero.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/hero/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/highlights/highlights.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/highlights/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/footer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/header.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/logo.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/marketing-layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/navigation.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/theme-toggle.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/logos/chakra.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/logos/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/logos/next.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/logos/react.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/mobile-nav/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/mobile-nav/mobile-nav.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/motion/box.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/motion/fall-in-place.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/motion/float.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/motion/page-transition.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/nav-link/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/nav-link/nav-link.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pricing/pricing.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/section/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/section/section-title.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/section/section.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/seo/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/seo/seo.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/testimonials/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/testimonials/testimonial.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/testimonials/testimonials.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/typography/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/appulse.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/config.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/faq.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/logo.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pricing.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/testimonials.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/use-route-changed.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/use-scrollspy.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/post-01.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/android-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/android-icon-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/android-icon-36x36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/android-icon-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/android-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/android-icon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/apple-icon-114x114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/apple-icon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/apple-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/apple-icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/apple-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/apple-icon-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/apple-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/apple-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/apple-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/apple-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/favicon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/ms-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/ms-icon-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/ms-icon-310x310.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/favicons/ms-icon-70x70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/images/avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/images/avatar2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/images/avatar3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/images/eelco.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/screenshots/billing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/screenshots/dashboard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/screenshots/landingspage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/screenshots/list.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/components/button.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/components/cta.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/components/features.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/components/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/components/section-title.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/components/section.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/foundations/typography.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/i18nButton/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/i18nButton/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ScrollToTop/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScrollToTop/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,17 +33,24 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="34Z1ySWLHhG6NsGv3kRJeBdMsgK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -162,6 +75,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anysz\Documents\GitHub\RyzeSpace.MainPage\src\app\[locale]" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:9002/">
       <method v="2" />
@@ -196,7 +114,7 @@
       <workItem from="1761465052267" duration="157000" />
       <workItem from="1761473820637" duration="132000" />
       <workItem from="1761487382763" duration="1000" />
-      <workItem from="1761493641278" duration="4688000" />
+      <workItem from="1761493641278" duration="10996000" />
     </task>
     <servers />
   </component>

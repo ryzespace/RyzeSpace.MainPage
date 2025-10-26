@@ -1,0 +1,10 @@
+{
+  "Home": {
+    "title": "Welcome to our app",
+    "description": "This is the English version."
+  },
+  "Header": {
+    "signin": "Sign In",
+    "signup": "Sign Up"
+  }
+}

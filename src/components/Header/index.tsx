@@ -1,13 +1,15 @@
 "use client";
+import { NextIntlClientProvider } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
+import LanguageSwitcher from "./i18nButton/Button";
 import menuData from "./menuData";
 
 const Header = () => {
-  // Navbar toggle
+  const t = useTranslations("Header")
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
@@ -90,6 +92,7 @@ const Header = () => {
                     }`}
                   />
                 </button>
+
                 <nav
                   id="navbarCollapse"
                   className={`navbar border-body-color/50 dark:border-body-color/20 dark:bg-dark absolute right-0 z-30 w-[250px] rounded border-[.5px] bg-white px-6 py-4 duration-300 lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
@@ -122,19 +125,23 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
+
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
                   href="/signin"
                   className="text-dark hidden px-7 py-3 text-base font-medium hover:opacity-70 md:block dark:text-white"
                 >
-                  Sign In
+                  (t{"signin"})
                 </Link>
                 <Link
                   href="/signup"
                   className="ease-in-up shadow-btn hover:shadow-btn-hover bg-primary hover:bg-primary/90 hidden rounded-sm px-8 py-3 text-base font-medium text-white transition duration-300 md:block md:px-9 lg:px-6 xl:px-9"
                 >
-                  Sign Up
+                  (t{"signup"})
                 </Link>
+                <div>
+                  <LanguageSwitcher />
+                </div>
                 <div>
                   <ThemeToggler />
                 </div>
