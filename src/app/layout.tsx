@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html>
-    <body className={`bg-[#FCFCFC] ${inter.className}`}>{children}</body>
+    <body className={`bg-[#FCFCFC] dark:bg-dark ${inter.className}`}>{children}</body>
     </html>
   );
 }

@@ -1,0 +1,193 @@
+{
+  "aboutSection": {
+    "title": "Stworzone dla biznesów, programistów i innych użytkowników.",
+    "paragraph": "Naszym celem jest stworzenie platformy z której może skorzystać każdy bez względu czy jest programistą, biznesmenem, czy zwykłym użytkownikiem który chce trzymać swoje pliki na zewnętrznych serwerach",
+    "features": {
+      "security": "Bezpieczeństwo",
+      "support": "Szybka pomoc",
+      "unlimited": "Używanie bez limitów",
+      "technology": "Najnowsze technologie",
+      "openSource": "Otwarty kod źródłowy",
+      "friendly": "Przyjazne środowisko"
+    }
+  },
+  "aboutSectionTwo": {
+    "forDevelopers": {
+      "title": "Od programistów dla programistów!",
+      "description": "Jeśli jesteś programistą i szukasz miejsca gdzie znajdziesz najtańszego vps na rynku to nasza platforma jest dla ciebie."
+    },
+    "specialists": {
+      "title": "Nasza kadra specjalistów",
+      "description": "Posiadamy wyspecjalizowaną kadrę która pomoże ci jeśli pojawią się jakieś komplikacje."
+    },
+    "security": {
+      "title": "Bezpieczeństwo",
+      "description": "Mamy silne zabezpieczenia przez które możesz spać spokojnie."
+    }
+  },
+  "contact": {
+    "title": "Potrzebujesz pomocy? Napisz do nas!",
+    "description": "Nasz zespół odpisze do ciebie najszybciej jak to możliwe. Odpowiedź dostaniesz na skrzynkę email",
+    "form": {
+      "name": {
+        "label": "Twoje imię",
+        "placeholder": "Wpisz swoje imię"
+      },
+      "email": {
+        "label": "Twój email",
+        "placeholder": "Wpisz swój email"
+      },
+      "message": {
+        "label": "Twoja wiadomość",
+        "placeholder": "Napisz swoją wiadomość"
+      },
+      "submit": "Wyślij zgłoszenie"
+    }
+  },
+  "newsletter": {
+    "title": "Subskrybuj nasz newsletter",
+    "description": "By dowiedzieć się pierwszy o nowych aktualizacjach!",
+    "form": {
+      "namePlaceholder": "Wpisz swoje imię",
+      "emailPlaceholder": "Wpisz swój email",
+      "submit": "Subskrybuj"
+    },
+    "spamNotice": "Jeśli nie widzisz naszych emaili, możliwe że trafiają one do spamu"
+  },
+  "features": {
+    "items": [
+      {
+        "id": 1,
+        "title": "Bezpieczeństwo i izolacja",
+        "paragraph": "Wykorzystujemy konteneryzację i najnowsze techniki sandboksingu, aby zapewnić pełną izolację zasobów i bezpieczeństwo Twoich danych."
+      },
+      {
+        "id": 2,
+        "title": "Dostęp do mocy obliczeniowej",
+        "paragraph": "Udostępniaj i korzystaj z mocy obliczeniowej dla złożonych zadań, takich jak renderowanie grafiki 3D, uczenie maszynowe czy analiza danych."
+      },
+      {
+        "id": 3,
+        "title": "Najnowsze technologie",
+        "paragraph": "Wykorzystujemy najnowsze technologie by dostarczyć użytkowniku bezpieczne oraz nowoczesne środowisko."
+      },
+      {
+        "id": 4,
+        "title": "Zdecentralizowana sieć",
+        "paragraph": "Działamy w oparciu o zdecentralizowaną architekturę, w której zasoby użytkowników są rozproszone i zarządzane w sieci. Dzięki temu eliminujemy pojedyncze punkty awarii i zwiększamy niezawodność całej platformy – bez użycia blockchaina."
+      },
+      {
+        "id": 5,
+        "title": "Elastyczność i skalowalność",
+        "paragraph": "RyzeSpace pozwala na dynamiczne skalowanie zasobów w zależności od potrzeb, oferując elastyczność nieosiągalną w tradycyjnych modelach."
+      },
+      {
+        "id": 6,
+        "title": "Darmowe i Open-Source",
+        "paragraph": "Korzystanie z naszej platformy jest darmowe a kod znajdziesz na naszym githubie"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Twoja platforma wynajmu zasobów serwerowych 24/7",
+    "supportTitle": "Wsparcie i Pomoc",
+    "links": {
+      "support": "Otwórz ticket wsparcia",
+      "about": "O nas"
+    },
+    "copyright": "Szablon przez"
+  },
+  "Header": {
+    "signin": "Zaloguj się",
+    "signup": "Zarejestruj się"
+  },
+  "menu": {
+    "home": "Strona główna",
+    "about": "O nas",
+    "support": "Wsparcie",
+    "contact": "Kontakt",
+    "signin": "Logowanie",
+    "signup": "Rejestracja",
+    "error": "Strona błędu"
+  },
+  "hero": {
+    "title": "RyzeSpace - Twoja serwerowa inwestycja",
+    "description": "RyzeSpace - to platforma do wymiany zasobów serwerowych gdzie to ty decydujesz ile chcesz kupić bądź sprzedać",
+    "githubButton": "Śledź na GitHub"
+  },
+  "pricing": {
+    "startTrial": "Rozpocznij darmowy trial"
+  },
+  "calculator": {
+    "title": "Kalkulator Zasobów Serwerowych",
+    "subtitle": "Skonfiguruj swój serwer i oblicz koszt wynajmu zasobów obliczeniowych",
+    "monthly": "Miesięcznie",
+    "yearly": "Rocznie",
+    "ram": "RAM (GB)",
+    "cpu": "CPU (vCPU)",
+    "gpu": "GPU",
+    "duration": "Okres czasu",
+    "months": "miesiące",
+    "years": "lata",
+    "month": "miesiąc",
+    "monthsPlural": "miesięcy",
+    "year": "rok",
+    "yearsPlural": "lat",
+    "total": "Suma całkowita",
+    "startNow": "Rozpocznij teraz",
+    "support": "Wsparcie techniczne",
+    "sla": "Gwarancja SLA",
+    "scaling": "Skalowanie zasobów"
+  },
+  "video": {
+    "title": "Ekskluzywna prezentacja naszej platformy",
+    "description": "Zobacz, jak rewolucjonizujemy branżę serwerową. Ta prezentacja zmieni Twoje podejście do infrastruktury IT."
+  },
+  "videoModal": {
+    "closeModal": "Zamknij modal"
+  },
+  "signin": {
+    "title": "Zaloguj się do swojego konta",
+    "subtitle": "Zaloguj się do swojego konta, aby przyspieszyć proces zakupu.",
+    "signInWithGoogle": "Zaloguj się przez Google",
+    "signInWithGithub": "Zaloguj się przez Github",
+    "orSignInEmail": "Lub zaloguj się przez email",
+    "yourEmail": "Twój Email",
+    "enterEmail": "Wpisz swój email",
+    "yourPassword": "Twoje hasło",
+    "enterPassword": "Wpisz swoje hasło",
+    "keepSignedIn": "Pozostań zalogowany",
+    "forgotPassword": "Zapomniałeś hasła?",
+    "signInButton": "Zaloguj się",
+    "noAccount": "Nie masz konta?",
+    "signUpLink": "Zarejestruj się",
+    "metaTitle": "Strona logowania | RyzeSpace Najlepsza platforma wynajmu",
+    "metaDescription": "Strona logowania do platformy RyzeSpace"
+  },
+  "signup": {
+    "title": "Utwórz swoje konto",
+    "subtitle": "To całkowicie darmowe i super łatwe",
+    "signUpWithGoogle": "Zarejestruj się przez Google",
+    "signUpWithGithub": "Zarejestruj się przez Github",
+    "orRegisterEmail": "Lub zarejestruj się przez email",
+    "fullName": "Pełne imię",
+    "enterFullName": "Wpisz swoje pełne imię",
+    "workEmail": "Email służbowy",
+    "enterEmail": "Wpisz swój email",
+    "yourPassword": "Twoje hasło",
+    "enterPassword": "Wpisz swoje hasło",
+    "agreeTerms": "Tworząc konto zgadzasz się z",
+    "termsConditions": "Regulaminem",
+    "and": ", oraz naszą",
+    "privacyPolicy": "Polityką Prywatności",
+    "signUpButton": "Zarejestruj się",
+    "alreadyHaveAccount": "Masz już konto?",
+    "signInLink": "Zaloguj się",
+    "metaTitle": "Strona rejestracji | RyzeSpace Najlepsza platforma wynajmu",
+    "metaDescription": "Strona rejestracji do platformy RyzeSpace"
+  },
+  "Home": {
+    "title": "Witaj w RyzeSpace",
+    "description": "Twoja platforma wynajmu zasobów serwerowych"
+  }
+}

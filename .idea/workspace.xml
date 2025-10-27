@@ -5,16 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0595975c-67c2-4ed1-acdf-c41228d425e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/i18n.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/messages/de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/messages/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/messages/pl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/messages/ru.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/messages/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/messages/de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/messages/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/messages/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/messages/pl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/messages/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/messages/ru.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contact/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/error/page.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/messages/de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/messages/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/messages/pl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/messages/ru.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/signin/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/signup/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/AboutSectionOne.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/AboutSectionTwo.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/Breadcrumb.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/ScrollUp.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/SectionTitle.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/NewsLatterBox.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Features/SingleFeature.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Features/featuresData.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Features/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/ThemeToggler.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/i18nButton/Button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/menuData.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pricing/OfferList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pricing/PricingBox.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pricing/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ScrollToTop/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Video/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/video-modal.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,30 +86,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\anysz\\Documents\\GitHub\\RyzeSpace.MainPage\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "CodeStatsConfigurable",
-    "ts.external.directory.path": "C:\\Users\\anysz\\Documents\\GitHub\\RyzeSpace.MainPage\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\anysz\\Documents\\GitHub\\RyzeSpace.MainPage\\node_modules\\prettier&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeStatsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\anysz\\Documents\\GitHub\\RyzeSpace.MainPage\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\anysz\Documents\GitHub\RyzeSpace.MainPage\src\app" />
+      <recent name="C:\Users\anysz\Documents\GitHub\RyzeSpace.MainPage\src\app\[locale]\components\Video" />
       <recent name="C:\Users\anysz\Documents\GitHub\RyzeSpace.MainPage\src\app\[locale]" />
+      <recent name="C:\Users\anysz\Documents\GitHub\RyzeSpace.MainPage\src" />
+      <recent name="C:\Users\anysz\Documents\GitHub\RyzeSpace.MainPage" />
+      <recent name="C:\Users\anysz\Documents\GitHub\RyzeSpace.MainPage\src\app" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
@@ -107,20 +150,35 @@
       <workItem from="1761465052267" duration="157000" />
       <workItem from="1761473820637" duration="132000" />
       <workItem from="1761487382763" duration="1000" />
-      <workItem from="1761493641278" duration="12560000" />
+      <workItem from="1761493641278" duration="12774000" />
+      <workItem from="1761506897809" duration="2027000" />
+      <workItem from="1761551939384" duration="762000" />
+      <workItem from="1761588132779" duration="4551000" />
+      <workItem from="1761592732249" duration="1361000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.gk646.codestats.settings.Save">
     <option name="genericTimePoints">
       <list>
         <TimePoint>
-          <option name="timestamp" value="1761506140769" />
-          <option name="linesCode" value="26090" />
-          <option name="totalLines" value="49550" />
+          <option name="timestamp" value="1761507341391" />
+          <option name="linesCode" value="14215" />
+          <option name="totalLines" value="25996" />
           <option name="info" value="26 paź 2025" />
         </TimePoint>
       </list>
