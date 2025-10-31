@@ -5,85 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0595975c-67c2-4ed1-acdf-c41228d425e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RyzeSpace.MainPage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RyzeSpace.MainPage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Api/auth/[...nextauth]/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Api/contact/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/auth-dialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth-dialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/calculator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/calculator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/contact.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/404.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/about/about-image-2-dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/about/about-image-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/about/about-image-dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/about/about-image.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/hero/shape-01.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/hero/shape-02.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo/logo-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/testimonials/auth-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/testimonials/auth-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/testimonials/auth-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/testimonials/author-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/testimonials/author-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/testimonials/author-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/video/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/video/shape.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/video/video.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/Middleware/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/about/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/About/AboutSectionOne.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/About/AboutSectionTwo.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Common/Breadcrumb.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Common/ScrollUp.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Common/SectionTitle.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Contact/NewsLatterBox.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Contact/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Features/SingleFeature.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Features/featuresData.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Features/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Footer/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Header/ThemeToggler.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Header/i18nButton/Button.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Header/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Header/menuData.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Hero/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Pricing/OfferList.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Pricing/PricingBox.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Pricing/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/ScrollToTop/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Video/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/components/Video/video-modal.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/contact/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/error/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/next-intl.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/signin/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/signup/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/messages/de.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/messages/en.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/messages/pl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/messages/ru.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/blog.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/feature.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/menu.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/testimonial.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startup-pro.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -189,7 +119,10 @@
       <workItem from="1761638611444" duration="1105000" />
       <workItem from="1761639848576" duration="531000" />
       <workItem from="1761640422309" duration="3375000" />
-      <workItem from="1761646378437" duration="890000" />
+      <workItem from="1761646378437" duration="1877000" />
+      <workItem from="1761762090628" duration="643000" />
+      <workItem from="1761918537873" duration="1447000" />
+      <workItem from="1761933488414" duration="3121000" />
     </task>
     <servers />
   </component>
@@ -221,6 +154,12 @@
           <option name="linesCode" value="13515" />
           <option name="totalLines" value="21242" />
           <option name="info" value="28 paź 2025" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1761918874027" />
+          <option name="linesCode" value="17344" />
+          <option name="totalLines" value="27898" />
+          <option name="info" value="31 paź 2025" />
         </TimePoint>
       </list>
     </option>
