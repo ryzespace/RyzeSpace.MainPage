@@ -79,4 +79,4 @@ Have questions or suggestions? Contact us:
 *   [Insert link to the RyzeSpace website here]
 
 ---
-© 2024 RyzeSpace. All rights reserved.
+© 2025 RyzeSpace. All rights reserved.
