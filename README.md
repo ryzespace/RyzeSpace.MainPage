@@ -1,47 +1,47 @@
-# RyzeSpace - Strona Główna
+# RyzeSpace - Main Page
 
-Witaj w repozytorium głównej strony internetowej RyzeSpace! Ta aplikacja stanowi wizytówkę naszego startupu, prezentując nasze usługi, misję i sposób, w jaki dążymy do innowacji.
+Welcome to the repository for the RyzeSpace main website! This application serves as our startup's homepage, showcasing our services, mission, and how we strive for innovation.
 
-## Opis Projektu
+## Project Description
 
-RyzeSpace to startup technologiczny, który koncentruje się na [tutaj wstaw krótki opis misji/dziedziny startupu, np. "tworzeniu innowacyjnych rozwiązań w dziedzinie X" lub "upraszczaniu procesów Y"]. Nasza strona główna ma za zadanie przedstawić naszą ofertę, zbudować zaufanie i umożliwić łatwy kontakt z nami.
+RyzeSpace is a technology startup focused on [insert a brief description of the startup's mission/field here, e.g., "creating innovative solutions in the X field" or "simplifying Y processes"]. Our main page is designed to present our offerings, build trust, and provide an easy way to contact us.
 
-## Kluczowe Funkcjonalności Strony
+## Key Features of the Site
 
-*   **Sekcje informacyjne**: Prezentacja misji, wizji, usług i wartości RyzeSpace.
-*   **Formularz kontaktowy**: Umożliwia użytkownikom łatwe wysyłanie zapytań i wiadomości.
-*   **Integracja z dostawcami autoryzacji**: Możliwość logowania/rejestracji za pomocą kont GitHub i Google (dzięki NextAuth.js).
-*   **Responsywny design**: Strona dostosowuje się do różnych rozmiarów ekranów (desktop, tablet, mobile).
-*   **Wsparcie dla wielu języków**: (Jeśli dotyczy, w przeciwnym razie usuń)
+*   **Informational Sections**: Presentation of RyzeSpace's mission, vision, services, and values.
+*   **Contact Form**: Allows users to easily send inquiries and messages.
+*   **Integration with Authentication Providers**: Ability to log in/register using GitHub and Google accounts (thanks to NextAuth.js).
+*   **Responsive Design**: The site adapts to various screen sizes (desktop, tablet, mobile).
+*   **Multi-language Support**: (If applicable, otherwise remove)
 
-## Technologie Użyte w Projekcie
+## Technologies Used in the Project
 
-*   **Next.js**: Framework React do budowania aplikacji webowych z renderowaniem po stronie serwera (SSR) i generowaniem statycznych stron (SSG).
-*   **React**: Biblioteka JavaScript do budowania interfejsów użytkownika.
-*   **Tailwind CSS**: Utility-first CSS framework do szybkiego stylizowania.
-*   **NextAuth.js**: Biblioteka do obsługi autoryzacji i uwierzytelniania.
-*   **TypeScript**: Język programowania zapewniający typowanie statyczne.
-*   **Nodemailer**: (Używany w backendzie do wysyłki e-maili z formularza kontaktowego).
+*   **Next.js**: A React framework for building web applications with server-side rendering (SSR) and static site generation (SSG).
+*   **React**: A JavaScript library for building user interfaces.
+*   **Tailwind CSS**: A utility-first CSS framework for rapid styling.
+*   **NextAuth.js**: A library for handling authorization and authentication.
+*   **TypeScript**: A programming language that provides static typing.
+*   **Nodemailer**: (Used in the backend to send emails from the contact form).
 
-## Jak uruchomić projekt lokalnie
+## How to Run the Project Locally
 
-Aby uruchomić projekt na swoim komputerze, wykonaj poniższe kroki:
+To run the project on your computer, follow these steps:
 
-1.  **Sklonuj repozytorium:**
+1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/TwojaOrganizacja/RyzeSpace.MainPage.git
+    git clone https://github.com/YourOrganization/RyzeSpace.MainPage.git
     cd RyzeSpace.MainPage
     ```
 
-2.  **Zainstaluj zależności:**
+2.  **Install dependencies:**
     ```bash
     npm install
-    # lub
+    # or
     yarn install
     ```
 
-3.  **Skonfiguruj zmienne środowiskowe:**
-    Utwórz plik `.env.local` w katalogu głównym projektu i dodaj następujące zmienne (przykładowe wartości):
+3.  **Configure environment variables:**
+    Create a `.env.local` file in the project's root directory and add the following variables (example values):
 
     ```env
     # NextAuth.js
@@ -51,32 +51,32 @@ Aby uruchomić projekt na swoim komputerze, wykonaj poniższe kroki:
     GOOGLE_SECRET=YOUR_GOOGLE_CLIENT_SECRET
     NEXTAUTH_SECRET=YOUR_NEXTAUTH_SECRET_RANDOM_STRING
 
-    # Contact Form (dla backendu, jeśli używasz SMTP)
+    # Contact Form (for the backend, if you use SMTP)
     ZIMBRA_HOST=your.smtp.host.com
     ZIMBRA_USER=your_email@domain.com
     ZIMBRA_PASS=your_email_password
     CONTACT_RECEIVER=receiver_email@domain.com
     ```
-    _Pamiętaj, aby zastąpić `YOUR_...` swoimi rzeczywistymi kluczami i danymi._
+    _Remember to replace `YOUR_...` with your actual keys and data._
 
-4.  **Uruchom serwer deweloperski:**
+4.  **Run the development server:**
     ```bash
     npm run dev
-    # lub
+    # or
     yarn dev
     ```
 
-    Aplikacja będzie dostępna pod adresem `http://localhost:3000`.
+    The application will be available at `http://localhost:3000`.
 
-## Wdrażanie (Deployment)
+## Deployment
 
-Projekt jest przygotowany do wdrożenia na platformach takich jak Vercel, Netlify lub innych hostujących aplikacje Next.js.
+The project is ready for deployment on platforms like Vercel, Netlify, or other hosts that support Next.js applications.
 
-## Kontakt
+## Contact
 
-Masz pytania lub sugestie? Skontaktuj się z nami:
-*   [Tutaj wstaw adres e-mail lub link do strony kontaktowej]
-*   [Tutaj wstaw link do strony internetowej RyzeSpace]
+Have questions or suggestions? Contact us:
+*   [Insert email address or link to the contact page here]
+*   [Insert link to the RyzeSpace website here]
 
 ---
-© 2024 RyzeSpace. Wszelkie prawa zastrzeżone.
+© 2024 RyzeSpace. All rights reserved.
