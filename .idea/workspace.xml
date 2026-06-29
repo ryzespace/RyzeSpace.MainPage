@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0595975c-67c2-4ed1-acdf-c41228d425e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Api/pricing/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/use-market-pricing.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/auth-dialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth-dialog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/language-switcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/language-switcher.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/calculator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/calculator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/features.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/features.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +140,7 @@
       <workItem from="1778355876234" duration="2119000" />
       <workItem from="1778397669674" duration="40000" />
       <workItem from="1778397721331" duration="4000" />
-      <workItem from="1782717993569" duration="3221000" />
+      <workItem from="1782717993569" duration="3737000" />
     </task>
     <servers />
   </component>
