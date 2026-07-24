@@ -245,10 +245,11 @@ export function AuthDialog({
                     <div className="px-6 py-6">
                         <div className="grid gap-3 sm:grid-cols-2">
                             <Button
+
                                 variant="outline"
                                 type="button"
                                 onClick={() => handleOAuthLogin('google')}
-                                disabled={isBusy}
+                                disabled={true} // {isBusy}
                                 className="h-11 rounded-xl border-border/70 bg-background hover:bg-muted/30"
                             >
                                 {oauthProvider === 'google' ? (
@@ -263,7 +264,7 @@ export function AuthDialog({
                                 variant="outline"
                                 type="button"
                                 onClick={() => handleOAuthLogin('github')}
-                                disabled={isBusy}
+                                disabled={true} //{isBusy}
                                 className="h-11 rounded-xl border-border/70 bg-background hover:bg-muted/30"
                             >
                                 {oauthProvider === 'github' ? (
@@ -298,6 +299,7 @@ export function AuthDialog({
                                 <div className="relative">
                                     <Mail className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
                                     <Input
+                                        disabled={true}
                                         id="email"
                                         type="email"
                                         placeholder="name@example.com"
@@ -325,6 +327,7 @@ export function AuthDialog({
                                 <div className="relative">
                                     <LockKeyhole className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
                                     <Input
+                                        disabled={true}
                                         id="password"
                                         type="password"
                                         placeholder="••••••••"
@@ -355,6 +358,7 @@ export function AuthDialog({
                                     <div className="relative">
                                         <Check className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
                                         <Input
+                                            disabled={true}
                                             id="confirmPassword"
                                             type="password"
                                             placeholder="••••••••"
@@ -384,6 +388,7 @@ export function AuthDialog({
                             {mode === 'login' && (
                                 <div className="flex justify-end">
                                     <Button
+                                        disabled={true}
                                         variant="link"
                                         className="h-auto px-0 text-sm text-muted-foreground hover:text-foreground"
                                         type="button"
@@ -396,7 +401,7 @@ export function AuthDialog({
                             <Button
                                 type="submit"
                                 className="h-11 w-full rounded-xl"
-                                disabled={isBusy}
+                                disabled={true} // {isBusy}
                             >
                                 {submitting ? (
                                     <>
@@ -415,6 +420,7 @@ export function AuthDialog({
                         <div className="mt-6 border-t border-border/60 pt-4 text-center text-sm text-muted-foreground">
                             {mode === 'login' ? t.auth.noAccount : t.auth.hasAccount}{' '}
                             <Button
+                                disabled={true}
                                 variant="link"
                                 className="h-auto px-0 text-sm"
                                 onClick={() =>
