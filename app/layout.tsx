@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   title: 'RyzeSpace - Server Resources On Demand',
   description: 'Scale your infrastructure instantly with our cloud-based server rental platform. Pay only for what you use.',
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon.ico',
+    icon: '/favicon-temp.ico',
+    shortcut: '/favicon-temp.ico',
   }
 };
 
