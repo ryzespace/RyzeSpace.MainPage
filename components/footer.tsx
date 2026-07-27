@@ -69,7 +69,12 @@ export function Footer() {
                     {/* Brand / Identity */}
                     <div className="space-y-6">
                         <div className="flex items-center gap-4">
-                                <Server className="h-6 w-6" />
+                            <img
+                                src="/logo.png"
+                                alt="RyzeSpace"
+                                width={80}
+                                height={80}
+                            />
                             <div>
                                 <div className="flex flex-wrap items-center gap-3">
                   <span className="text-lg font-semibold tracking-tight">

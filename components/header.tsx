@@ -91,10 +91,12 @@ export function Header() {
                                 aria-label="Go to homepage"
                                 className="flex items-center gap-3"
                             >
-                                <div className="flex h-10 w-10 items-center justify-center rounded-[14px] border border-border/70 bg-background/70 text-primary shadow-sm transition-colors hover:bg-muted/20 sm:h-11 sm:w-11 sm:rounded-[16px]">
-                                    <Server className="h-5 w-5" />
-                                </div>
-
+                                    <img
+                                        src="/logo.png"
+                                        alt="RyzeSpace"
+                                        width={40}
+                                        height={40}
+                                    />
                                 <span className="text-[15px] font-semibold tracking-tight text-foreground sm:text-base">
                   RyzeSpace
                 </span>

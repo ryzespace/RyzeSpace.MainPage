@@ -7,8 +7,12 @@ import { LanguageProvider } from '@/contexts/LanguageContext';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'RyzeSpace - Enterprise Server Resources On Demand',
+  title: 'RyzeSpace - Server Resources On Demand',
   description: 'Scale your infrastructure instantly with our cloud-based server rental platform. Pay only for what you use.',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+  }
 };
 
 export default function RootLayout({
