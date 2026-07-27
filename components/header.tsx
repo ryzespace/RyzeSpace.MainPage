@@ -14,6 +14,7 @@ import {
     SheetContent,
     SheetTrigger,
 } from '@/components/ui/sheet';
+import {Logo} from "@/components/Logo";
 
 type AuthMode = 'login' | 'register';
 
@@ -91,12 +92,10 @@ export function Header() {
                                 aria-label="Go to homepage"
                                 className="flex items-center gap-3"
                             >
-                                    <img
-                                        src="/logo.png"
-                                        alt="RyzeSpace"
-                                        width={40}
-                                        height={40}
-                                    />
+                                <div className="flex h-10 w-10 items-center justify-center rounded-[14px]  text-primary shadow-sm transition-colors hover:bg-muted/20 sm:h-11 sm:w-11 sm:rounded-[16px]">
+                                   <Logo className=" w-10 h-10 " />
+                                </div>
+
                                 <span className="text-[15px] font-semibold tracking-tight text-foreground sm:text-base">
                   RyzeSpace
                 </span>

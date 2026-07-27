@@ -11,6 +11,7 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@/components/ui/dialog";
+import {Logo} from "@/components/Logo";
 
 const focusAreas = [
     "AI Systems",
@@ -69,12 +70,7 @@ export function Footer() {
                     {/* Brand / Identity */}
                     <div className="space-y-6">
                         <div className="flex items-center gap-4">
-                            <img
-                                src="/logo.png"
-                                alt="RyzeSpace"
-                                width={80}
-                                height={80}
-                            />
+                                <Logo className="h-20 w-20" />
                             <div>
                                 <div className="flex flex-wrap items-center gap-3">
                   <span className="text-lg font-semibold tracking-tight">
