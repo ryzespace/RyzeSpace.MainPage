@@ -33,9 +33,9 @@
           </button>
         </nav>
 
-        <div class="mt-4 pt-4 border-t border-neutral-200 dark:border-neutral-800 flex items-center justify-between gap-2">
+        <div class="mt-4 pt-4 mr-1 border-t border-neutral-200 dark:border-neutral-800 flex items-center justify-between gap-2">
           <LanguageDropdown />
-          <CurrencyDropdown />
+          <div></div>
           <ThemeToggle />
         </div>
       </div>
@@ -66,7 +66,6 @@ import { useI18nStore } from '@/stores/i18n';
 import { useAuthStore } from '@/stores/auth';
 import Logo from '@/components/common/Logo.vue';
 import LanguageDropdown from '@/components/common/LanguageDropdown.vue';
-import CurrencyDropdown from '@/components/common/CurrencyDropdown.vue';
 import ThemeToggle from '@/components/common/ThemeToggle.vue';
 import { X, ChevronRight } from 'lucide-vue-next';
 

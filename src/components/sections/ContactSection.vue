@@ -4,9 +4,6 @@
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         <div class="lg:col-span-5 space-y-6">
           <div>
-            <div class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#F38020] mb-2">
-              <span>{{ t.contact.badge }}</span>
-            </div>
             <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-neutral-900 dark:text-white">
               {{ t.contact.title }}
             </h2>
@@ -44,19 +41,6 @@
               </button>
             </form>
           </div>
-
-          <div class="p-4 rounded-xl bg-white dark:bg-[#131824] border border-neutral-200 dark:border-neutral-800 text-xs text-neutral-600 dark:text-neutral-400 space-y-2">
-            <p>{{ t.contact.urgentNote }}</p>
-            <div class="flex flex-wrap gap-1.5">
-              <span
-                v-for="tag in t.contact.tags"
-                :key="tag"
-                class="px-2 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-[10px] font-medium text-neutral-700 dark:text-neutral-300"
-              >
-                {{ tag }}
-              </span>
-            </div>
-          </div>
         </div>
 
         <div class="lg:col-span-7">
@@ -65,10 +49,7 @@
               <h3 class="text-lg font-bold text-neutral-900 dark:text-white">
                 {{ t.contact.contactForm }}
               </h3>
-              <span class="text-[10px] font-mono text-emerald-500 font-semibold">Resend Engine Active</span>
             </div>
-            <p class="text-xs text-neutral-500 mb-6">Reach our engineering team directly.</p>
-
             <form @submit.prevent="handleContactSubmit" class="space-y-4">
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>

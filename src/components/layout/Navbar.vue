@@ -26,7 +26,6 @@
 
       <div class="hidden lg:flex items-center gap-3">
         <LanguageDropdown />
-        <CurrencyDropdown />
         <ThemeToggle />
 
         <div class="h-4 w-px bg-neutral-200 dark:bg-neutral-800"></div>
@@ -71,7 +70,6 @@ import { useI18nStore } from '@/stores/i18n';
 import { useAuthStore } from '@/stores/auth';
 import Logo from '@/components/common/Logo.vue';
 import LanguageDropdown from '@/components/common/LanguageDropdown.vue';
-import CurrencyDropdown from '@/components/common/CurrencyDropdown.vue';
 import ThemeToggle from '@/components/common/ThemeToggle.vue';
 import MobileMenu from '@/components/layout/MobileMenu.vue';
 import { Menu } from 'lucide-vue-next';

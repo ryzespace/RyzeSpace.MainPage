@@ -7,10 +7,6 @@
           <p class="text-xs text-neutral-500 max-w-sm leading-relaxed">
             {{ t.footer.description }}
           </p>
-          <div class="flex items-center gap-2 pt-2 text-xs">
-            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-            <span class="text-neutral-700 dark:text-neutral-300 font-medium">{{ t.footer.statusText }}</span>
-          </div>
         </div>
 
         <div>

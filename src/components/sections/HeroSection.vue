@@ -2,10 +2,6 @@
   <section class="py-20 md:py-28 bg-white dark:bg-[#0B0E14] border-b border-neutral-200 dark:border-neutral-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-4xl mx-auto text-center">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-[#F38020] text-xs font-semibold uppercase tracking-wider mb-6">
-          <span>{{ t.hero.badge }}</span>
-        </div>
-
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-neutral-900 dark:text-white leading-[1.12] mb-6">
           {{ t.hero.title }},
           <span class="block text-neutral-500 dark:text-neutral-400 font-bold mt-1">
@@ -35,11 +31,6 @@
             <span>{{ t.hero.ctaSecondary }}</span>
           </button>
         </div>
-
-        <p class="text-xs text-neutral-500 dark:text-neutral-400 flex items-center justify-center gap-1.5">
-          <Check class="w-3.5 h-3.5 text-emerald-500" />
-          <span>{{ t.hero.noCreditCard }}</span>
-        </p>
       </div>
     </div>
   </section>

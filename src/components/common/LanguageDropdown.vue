@@ -13,7 +13,7 @@
 
     <div
       v-if="isOpen"
-      class="absolute right-0 mt-1.5 w-36 rounded-xl bg-white dark:bg-[#131824] border border-neutral-200 dark:border-neutral-800 shadow-xl py-1 z-50"
+      class="absolute left-0 mt-1.5 w-36 rounded-xl bg-white dark:bg-[#131824] border border-neutral-200 dark:border-neutral-800 shadow-xl py-1 z-50"
     >
       <button
         v-for="item in languagesList"
