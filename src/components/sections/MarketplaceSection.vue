@@ -3,22 +3,12 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
         <div class="max-w-2xl">
-          <div class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#F38020] mb-2">
-            <span>{{ t.marketplace.badge }}</span>
-          </div>
           <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-neutral-900 dark:text-white">
             {{ t.marketplace.title }}
           </h2>
           <p class="mt-2 text-base text-neutral-600 dark:text-neutral-400">
             {{ t.marketplace.subtitle }}
           </p>
-        </div>
-
-        <div class="flex items-center gap-2">
-          <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white dark:bg-[#131824] border border-neutral-200 dark:border-neutral-800 text-xs font-mono font-medium text-neutral-700 dark:text-neutral-300">
-            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-            {{ filteredNodes.length }} Active Bare Metal Nodes
-          </span>
         </div>
       </div>
 
