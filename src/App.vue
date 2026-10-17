@@ -1,12 +1,10 @@
 <template>
   <div class="min-h-screen flex flex-col bg-white dark:bg-[#0B0E14] text-neutral-900 dark:text-neutral-100 selection:bg-[#F38020] selection:text-white">
-    <AnnouncementBar />
     <Navbar />
 
     <main class="flex-1">
       <HeroSection />
       <RegionEarthSection />
-      <LegacyVsCloudflare />
       <MarketplaceSection ref="marketplaceRef" />
       <ArchitectureRolesSection />
       <GlobalNetworkSection />
@@ -29,12 +27,10 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import { useThemeStore } from '@/stores/theme';
-import AnnouncementBar from '@/components/layout/AnnouncementBar.vue';
 import Navbar from '@/components/layout/Navbar.vue';
 import Footer from '@/components/layout/Footer.vue';
 import HeroSection from '@/components/sections/HeroSection.vue';
 import RegionEarthSection from '@/components/sections/RegionEarthSection.vue';
-import LegacyVsCloudflare from '@/components/sections/LegacyVsCloudflare.vue';
 import MarketplaceSection from '@/components/sections/MarketplaceSection.vue';
 import ArchitectureRolesSection from '@/components/sections/ArchitectureRolesSection.vue';
 import GlobalNetworkSection from '@/components/sections/GlobalNetworkSection.vue';
